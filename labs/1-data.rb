@@ -10,8 +10,31 @@
 # then write them out to the screen. Show the total
 # as well.
 
+
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# create a random number and store it in memory
+first_dice = rand(1..6)
+# create a second random number and store it in memory
+second_dice = rand(1..6)
+# add the two dice in memory together and store the total in memory
+total_roll = first_dice + second_dice
+
+# write the first die to the screen in a user-friendly way
+user_first_dice_roll = "the first dice rolled a #{first_dice}"
+
+puts user_first_dice_roll
+# write the second die to the screen in a user-friendly way
+user_second_dice_roll = "the second dice rolled a #{second_dice}"
+
+puts user_second_dice_roll
+# write the total to the screen in a user-friendly way
+
+user_total_dice_roll = "the total roll was #{total_roll}"
+
+puts user_total_dice_roll
