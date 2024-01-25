@@ -8,4 +8,31 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+
+#set the index
+#index = 0
+
+
+#start the loop
+#loop do
+
+#if the index is outside the range of the array, stop looping
+ #   if index == tacos.length 
+  #      break
+   # end
+
+#put the taco at the index in memory
+    #taco  tacos[index]
+    
+#write it to the screen
+   # puts "#{taco} tacos"
+
+#index = index + 1
+#end
+
+for taco in tacos
+    puts "#{taco} tacos"
+end
+
